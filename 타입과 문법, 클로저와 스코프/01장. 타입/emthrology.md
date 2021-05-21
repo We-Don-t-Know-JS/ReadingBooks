@@ -13,10 +13,12 @@ typeof null //"object"
 typeof function(){} //"function" 
 ```
 배열도 `object`의 하위타입이다. 
-  실무에서 `object`와 `array`를 구분하는법 
-  1.instanceof
 
-  2.Array.isArray() 
+  실무에서 `object`와 `array`를 구분하는법 
+
+  1.`instanceof`
+
+  2.`Array.isArray()`
 
   3.library (underscore, lodash, etc.)
 
