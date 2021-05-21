@@ -28,6 +28,15 @@ typeof NaN //"number"
 ```
 ## undefined 와 null
 `undefined` : 선언되고 데이터가 할당되지 않은 변수의 default value
+
+주의: 선언되지않았더라도 `typeof`로 검사하면 "undefined"가 리턴된다
+```javascript
+let a;
+
+typeof a //"undefined"
+typeof b //"undefined"
+```
+
 `null`: '값이 없음'을 명시적으로 표현함
 
  참조에러를 방지하기위한 코드는 undefined check를 해야함 (null check가 아니라)
