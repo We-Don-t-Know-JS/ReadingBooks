@@ -14,7 +14,7 @@ typeof function(){} //"function"
 ```
 배열도 `object`의 하위타입이다. 
 
-  실무에서 `object`와 `array`를 구분하는법 
+  `object`와 `array`를 구분하는법 
 
   1.`instanceof`
 
